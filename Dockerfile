@@ -2,8 +2,10 @@ FROM ubuntu:latest AS build
 
 RUN apt-get update
 RUN apt-get install openjdk-17-jdk -y
-RUN ./gradlew bootJar --no-daemon
+COPY ..
 
+FROM openjdk:17-jdk-slim
+RUN ./gradlew <bootJar> --no-daemon
 
 FROM openjdk:17-jdk-slim
 
