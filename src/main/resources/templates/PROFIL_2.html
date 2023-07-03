@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OGŁOSZENIA</title>
+
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../static/PROFIL_style_2.css">
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="nav container">
+        <div class="nav__data">
+            <a href="#" class="nav__logo">
+                <i class='bx bxs-hot' style='color:#ff6633' ></i>  OSP KANIE
+            </a>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu' style='color:#ffffff'  ></i>
+                <i class='bx bx-x'></i>
+            </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li><a href="STRONA_GLOWNA_2.html" class="nav__link" style='color:#ff6633'>HOME</a></li>
+
+                <li><a href="OGLOSZENIA_2.html" class="nav__link">Ogłoszenia</a></li>
+
+                <!--=============== DROPDOWN 1 ===============-->
+                <li class="dropdown__item">
+                    <div class="nav__link">
+                        Profil <i class='bx bxs-chevron-down' style='color:#ffffff' ></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                        <li>
+                            <a href="PROFIL_2.html #certyfikaty" class="dropdown__link">
+                                <i class='bx bx-file' style='color:#ffffff' ></i> Certyfikaty
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="PROFIL_2.html #dane" class="dropdown__link">
+                                <i class='bx bx-user' style='color:#ffffff' ></i> Dane
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="PROFIL_2.html #footer" class="nav__link">Kontakt</a></li>
+                <li><a href="logowanie_responsywne.html" class="nav__link" style="text-decoration: underline; font-weight: normal">Wyloguj się</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+
+<section class="dane" id="dane">
+<h1 class="sub-heading">Twój profil</h1>
+<div class="divider"></div>
+
+<div class="about-col">
+    <div class="img-col">
+        <img src="../images/portret.jpg" alt="...">
+    </div>
+
+    <!-- information -->
+    <div class="info-col">
+        <h2>Jan KOWALSKI</h2>
+
+        <div class="icon-list-col">
+            <!-- Left -->
+            <div class="icon-list">
+                <ul>
+                    <li><i class="fa-solid fa-angle-right"></i> <span style='color:white' > INFORMACJE OGÓLNE:</span> </li>
+                    <li><i class='bx bxs-calendar' ></i><strong> Data urodzenia: </strong><span> 25.08.1999r.</span></li>
+                    <li><i class='bx bx-home' ></i><strong> Miejsce zamieszkania: </strong><span > Kanie-Stacja 78</span></li>
+                    <li><i class='bx bx-envelope'  ></i><strong> Email: </strong><span > ola.liwiak@gmail.com</span></li>
+                    <li><i class='bx bxs-phone'  ></i> <strong> Numer telefonu: </strong><span > 502 675 898</span></li>
+                    <li><i class='bx bxs-hourglass'  ></i> <strong> Data dołączenia do OSP: </strong><span > 15.02.2018r.</span></li>
+                </ul>
+            </div>
+
+
+            <!--Right-->
+            <div class="icon-list">
+                <ul>
+                    <li><i class="fa-solid fa-angle-right"></i> <span style='color:white'> UPRAWNIENIA:</span> </li>
+                    <li><i class='bx bx-user'></i><strong> Stanowisko: </strong><span> Naczelnik</span></li>
+                    <li><i class="fa-solid fa-angle-right">> </i> <span> Prawo jazdy kat. C</span> </li>
+                    <li><i class="fa-solid fa-angle-right">> </i> <span> Uprawnienia do nurkowania</span> </li>
+                    <li><i class="fa-solid fa-angle-right">> </i> <span> KPP</span> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="certyfikaty" id="certyfikaty">
+    <h2 class="heading">Twoje <span>certyfikaty</span></h2>
+
+    <div class="certyfikaty-container">
+        <div class="certyfikaty-box">
+            <img src="../images/podstawowy.jpg" alt="">
+            <div class="certyfikaty-layer">
+                <h4>KURS MEDYCZNY</h4>
+                <p>Data ukończenia: 22 grudnia 2020r.</p>
+                <a href="../images/podstawowy.jpg" id="download-link"><i class='bx bxs-download'></i></a>
+
+            </div>
+        </div>
+
+        <div class="certyfikaty-box">
+            <img src="../images/podstawowy.jpg" alt="">
+            <div class="certyfikaty-layer">
+                <h4>PRAWO JAZDY C</h4>
+                <p>Data ukończenia: 15 sierpnia 2019r. </p>
+                <a href="../images/podstawowy.jpg" id="download-link1" download="prawo_jazdy.jpg"><i class='bx bxs-download'></i></a>
+
+            </div>
+        </div>
+
+        <div class="certyfikaty-box">
+            <img src="../images/podstawowy.jpg" alt="">
+            <div class="certyfikaty-layer">
+                <h4>KPP</h4>
+                <p>Data ukończenia: 12 kwietnia 2023r.</p>
+                <a href="../images/podstawowy.jpg"><i class='bx bxs-download' ></i></a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer" id="footer">
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>OSP<span>Kanie</span></h3>
+
+            <p class="footer-links">
+                |
+                <a href="STRONA_GLOWNA_2.html">Home</a>
+                |
+                <a href="OGLOSZENIA_2.html">Ogłoszenia</a>
+                |
+            </p>
+
+            <p class="footer-company-name"> Copyright © 2023 <strong> OSPKanie</strong></p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class='bx bxs-map'></i>
+                <p>Kanie 119E</p>
+            </div>
+            <div>
+                <i class='bx bxs-phone'></i>
+                <p>+82 566 98 32</p>
+            </div>
+            <div>
+                <i class='bx bxs-envelope' ></i>
+                <p><a href="#">osp.ksrg.kanie@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>O nas</span>
+                <strong>Ochotnicza Straż Pożarna w Kaniem</strong> to jedna z kilku jednostek
+                ochrony przeciwpożarowej działających w gminie Rejwiec-Fabryczny. Terenem działania OSP jest miejscowość Kanie oraz miejscowości położone w rejonie pomocy wzajemnej.
+            </p>
+
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/profile.php?id=100063468785433"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://instagram.com/kanscy_strazacy_w_biegu?igshid=MzRlODBiNWFlZA=="><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.youtube.com/watch?v=zVNkWGT6w3w"><i class='bx bxl-youtube' ></i></a>
+            </div>
+        </div>
+
+    </footer>
+</section>
+
+</body>
+
+
+<script>
+
+    /*=============== SHOW MENU ===============*/
+    const showMenu = (toggleId, navId) =>{
+        const toggle = document.getElementById(toggleId),
+            nav = document.getElementById(navId)
+
+        toggle.addEventListener('click', () =>{
+            // Add show-menu class to nav menu
+            nav.classList.toggle('show-menu')
+
+            // Add show-icon to show and hide the menu icon
+            toggle.classList.toggle('show-icon')
+        })
+    }
+
+    showMenu('nav-toggle','nav-menu')
+</script>
+</html>
+
