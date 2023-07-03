@@ -5,7 +5,7 @@ RUN apt-get install openjdk-17-jdk -y
 COPY . .
 
 FROM openjdk:17-jdk-slim
-RUN ./gradlew <bootJar> --no-daemon
+RUN ./gradlew bootJar --no-daemon
 
 FROM openjdk:17-jdk-slim
 
